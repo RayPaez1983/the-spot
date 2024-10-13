@@ -1,0 +1,982 @@
+{
+  "cities": [
+    {
+      "city": "New York",
+      "image": "../../assets/valencia.jpg",
+      "best_places": [
+        {
+          "name": "Central Park",
+          "rating": 4.8,
+          "address": "New York, NY 10024, USA"
+        },
+        {
+          "name": "Times Square",
+          "rating": 4.2,
+          "address": "Manhattan, NY 10036, USA"
+        },
+        {
+          "name": "Empire State Building",
+          "rating": 4.5,
+          "address": "20 W 34th St, New York, NY 10118, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Le Bernardin",
+          "rating": 4.8,
+          "cost": "$$$"
+        },
+        {
+          "name": "Gramercy Tavern",
+          "rating": 4.6,
+          "cost": "$$"
+        },
+        {
+          "name": "Sesame Street Restaurant",
+          "rating": 4.8,
+          "cost": "$$$"
+        },
+        {
+          "name": "Grace an Charity Restauranta",
+          "rating": 4.6,
+          "cost": "$"
+        }
+      ]
+    },
+    {
+      "city": "Los Angeles",
+      "image": "https://source.unsplash.com/featured/?los-angeles",
+      "best_places": [
+        {
+          "name": "Hollywood Sign",
+          "rating": 4.8,
+          "address": "Los Angeles, CA 90068, USA"
+        },
+        {
+          "name": "Venice Beach",
+          "rating": 4.2,
+          "address": "1800 Ocean Front Walk, Venice, CA 90291, USA"
+        },
+        {
+          "name": "Griffith Observatory",
+          "rating": 4.5,
+          "address": "2800 E Observatory Rd, Los Angeles, CA 90027, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Providence",
+          "rating": 4.7,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Guelaguetza",
+          "rating": 4.5,
+          "cost": "$$"
+        }
+      ]
+    },
+    {
+      "city": "Chicago",
+      "image": "https://source.unsplash.com/featured/?chicago",
+      "best_places": [
+        {
+          "name": "Millennium Park",
+          "rating": 4.8,
+          "address": "201 E Randolph St, Chicago, IL 60602, USA"
+        },
+        {
+          "name": "Navy Pier",
+          "rating": 4.2,
+          "address": "600 E Grand Ave, Chicago, IL 60611, USA"
+        },
+        {
+          "name": "Willis Tower",
+          "rating": 4.5,
+          "address": "233 S Wacker Dr, Chicago, IL 60606, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Alinea",
+          "rating": 4.9,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Girl & the Goat",
+          "rating": 4.7,
+          "cost": "$$$"
+        }
+      ]
+    },
+    {
+      "city": "San Francisco",
+      "image": "https://source.unsplash.com/featured/?san-francisco",
+      "best_places": [
+        {
+          "name": "Golden Gate Bridge",
+          "rating": 4.8,
+          "address": "Golden Gate Bridge, San Francisco, CA, USA"
+        },
+        {
+          "name": "Alcatraz Island",
+          "rating": 4.2,
+          "address": "San Francisco, CA 94133, USA"
+        },
+        {
+          "name": "Fisherman's Wharf",
+          "rating": 4.5,
+          "address": "Fisherman's Wharf, San Francisco, CA 94133, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Quince",
+          "rating": 4.8,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Zuni Café",
+          "rating": 4.6,
+          "cost": "$$$"
+        }
+      ]
+    },
+    {
+      "city": "Miami",
+      "image": "https://source.unsplash.com/featured/?miami",
+      "best_places": [
+        {
+          "name": "Miami Beach",
+          "rating": 4.8,
+          "address": "Miami Beach, FL 33139, USA"
+        },
+        {
+          "name": "Wynwood Walls",
+          "rating": 4.2,
+          "address": "2520 NW 2nd Ave, Miami, FL 33127, USA"
+        },
+        {
+          "name": "Vizcaya Museum",
+          "rating": 4.5,
+          "address": "3251 S Miami Ave, Miami, FL 33129, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Joe's Stone Crab",
+          "rating": 4.5,
+          "cost": "$$$"
+        },
+        {
+          "name": "Mandolin Aegean Bistro",
+          "rating": 4.4,
+          "cost": "$$"
+        }
+      ]
+    },
+    {
+      "city": "Seattle",
+      "image": "https://source.unsplash.com/featured/?seattle",
+      "best_places": [
+        {
+          "name": "Space Needle",
+          "rating": 4.8,
+          "address": "400 Broad St, Seattle, WA 98109, USA"
+        },
+        {
+          "name": "Pike Place Market",
+          "rating": 4.2,
+          "address": "85 Pike St, Seattle, WA 98101, USA"
+        },
+        {
+          "name": "Chihuly Garden",
+          "rating": 4.5,
+          "address": "305 Harrison St, Seattle, WA 98109, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Canlis",
+          "rating": 4.7,
+          "cost": "$$$$"
+        },
+        {
+          "name": "The Walrus and the Carpenter",
+          "rating": 4.5,
+          "cost": "$$$"
+        }
+      ]
+    },
+    {
+      "city": "Boston",
+      "image": "https://source.unsplash.com/featured/?boston",
+      "best_places": [
+        {
+          "name": "Fenway Park",
+          "rating": 4.8,
+          "address": "4 Jersey St, Boston, MA 02215, USA"
+        },
+        {
+          "name": "Boston Common",
+          "rating": 4.2,
+          "address": "139 Tremont St, Boston, MA 02111, USA"
+        },
+        {
+          "name": "Faneuil Hall",
+          "rating": 4.5,
+          "address": "4 S Market St, Boston, MA 02109, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Ostra",
+          "rating": 4.6,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Neptune Oyster",
+          "rating": 4.5,
+          "cost": "$$$"
+        }
+      ]
+    },
+    {
+      "city": "Las Vegas",
+      "image": "https://source.unsplash.com/featured/?las-vegas",
+      "best_places": [
+        {
+          "name": "The Strip",
+          "rating": 4.8,
+          "address": "Las Vegas Blvd S, Las Vegas, NV 89109, USA"
+        },
+        {
+          "name": "Bellagio Fountains",
+          "rating": 4.2,
+          "address": "3600 S Las Vegas Blvd, Las Vegas, NV 89109, USA"
+        },
+        {
+          "name": "Red Rock Canyon",
+          "rating": 4.5,
+          "address": "1000 Scenic Loop Dr, Las Vegas, NV 89161, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Joel Robuchon",
+          "rating": 4.8,
+          "cost": "$$$$"
+        },
+        {
+          "name": "é by José Andrés",
+          "rating": 4.7,
+          "cost": "$$$"
+        }
+      ]
+    },
+    {
+      "city": "Austin",
+      "image": "https://source.unsplash.com/featured/?austin",
+      "best_places": [
+        {
+          "name": "Barton Springs Pool",
+          "rating": 4.8,
+          "address": "2201 Barton Springs Rd, Austin, TX 78746, USA"
+        },
+        {
+          "name": "Zilker Park",
+          "rating": 4.2,
+          "address": "2100 Barton Springs Rd, Austin, TX 78704, USA"
+        },
+        {
+          "name": "Texas Capitol",
+          "rating": 4.5,
+          "address": "1100 Congress Ave, Austin, TX 78701, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Franklin Barbecue",
+          "rating": 4.9,
+          "cost": "$$"
+        },
+        {
+          "name": "Uchi",
+          "rating": 4.7,
+          "cost": "$$$"
+        }
+      ]
+    },
+    {
+      "city": "Portland",
+      "image": "https://source.unsplash.com/featured/?portland",
+      "best_places": [
+        {
+          "name": "Portland Japanese Garden",
+          "rating": 4.8,
+          "address": "611 SW Kingston Ave, Portland, OR 97205, USA"
+        },
+        {
+          "name": "Pioneer Courthouse Square",
+          "rating": 4.2,
+          "address": "701 SW 6th Ave, Portland, OR 97204, USA"
+        },
+        {
+          "name": "International Rose Test Garden",
+          "rating": 4.5,
+          "address": "400 SW Kingston Ave, Portland, OR 97205, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Le Pigeon",
+          "rating": 4.6,
+          "cost": "$$$"
+        },
+        {
+          "name": "Pok Pok",
+          "rating": 4.5,
+          "cost": "$$"
+        }
+      ]
+    },
+    {
+      "city": "Philadelphia",
+      "image": "https://source.unsplash.com/featured/?philadelphia",
+      "best_places": [
+        {
+          "name": "Liberty Bell",
+          "rating": 4.8,
+          "address": "526 Market St, Philadelphia, PA 19106, USA"
+        },
+        {
+          "name": "Philadelphia Museum of Art",
+          "rating": 4.2,
+          "address": "2600 Benjamin Franklin Pkwy, Philadelphia, PA 19130, USA"
+        },
+        {
+          "name": "Independence Hall",
+          "rating": 4.5,
+          "address": "520 Chestnut St, Philadelphia, PA 19106, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Vetri Cucina",
+          "rating": 4.8,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Zahav",
+          "rating": 4.7,
+          "cost": "$$$"
+        }
+      ]
+    },
+    {
+      "city": "Dallas",
+      "image": "https://source.unsplash.com/featured/?dallas",
+      "best_places": [
+        {
+          "name": "The Sixth Floor Museum",
+          "rating": 4.8,
+          "address": "411 Elm St, Dallas, TX 75202, USA"
+        },
+        {
+          "name": "Dallas Arboretum",
+          "rating": 4.2,
+          "address": "8525 Garland Rd, Dallas, TX 75218, USA"
+        },
+        {
+          "name": "Reunion Tower",
+          "rating": 4.5,
+          "address": "300 Reunion Blvd E, Dallas, TX 75207, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Pecan Lodge",
+          "rating": 4.6,
+          "cost": "$$"
+        },
+        {
+          "name": "Tei-An",
+          "rating": 4.5,
+          "cost": "$$$"
+        }
+      ]
+    },
+    {
+      "city": "Denver",
+      "image": "https://source.unsplash.com/featured/?denver",
+      "best_places": [
+        {
+          "name": "Red Rocks Amphitheatre",
+          "rating": 4.8,
+          "address": "18300 W Alameda Pkwy, Morrison, CO 80465, USA"
+        },
+        {
+          "name": "Denver Art Museum",
+          "rating": 4.2,
+          "address": "100 W 14th Ave Pkwy, Denver, CO 80204, USA"
+        },
+        {
+          "name": "Denver Botanic Gardens",
+          "rating": 4.5,
+          "address": "1007 York St, Denver, CO 80206, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Fruition Restaurant",
+          "rating": 4.7,
+          "cost": "$$$"
+        },
+        {
+          "name": "Sushi Den",
+          "rating": 4.5,
+          "cost": "$$"
+        }
+      ]
+    },
+    {
+      "city": "Nashville",
+      "image": "https://source.unsplash.com/featured/?nashville",
+      "best_places": [
+        {
+          "name": "Grand Ole Opry",
+          "rating": 4.8,
+          "address": "2804 Opryland Dr, Nashville, TN 37214, USA"
+        },
+        {
+          "name": "Ryman Auditorium",
+          "rating": 4.2,
+          "address": "116 5th Ave N, Nashville, TN 37219, USA"
+        },
+        {
+          "name": "Country Music Hall of Fame",
+          "rating": 4.5,
+          "address": "222 5th Ave S, Nashville, TN 37203, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "The Catbird Seat",
+          "rating": 4.8,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Hattie B's Hot Chicken",
+          "rating": 4.6,
+          "cost": "$$"
+        }
+      ]
+    },
+    {
+      "city": "Houston",
+      "image": "https://source.unsplash.com/featured/?houston",
+      "best_places": [
+        {
+          "name": "Space Center Houston",
+          "rating": 4.8,
+          "address": "1601 NASA Rd 1, Houston, TX 77058, USA"
+        },
+        {
+          "name": "Museum of Fine Arts",
+          "rating": 4.2,
+          "address": "1001 Bissonnet St, Houston, TX 77005, USA"
+        },
+        {
+          "name": "Houston Zoo",
+          "rating": 4.5,
+          "address": "6200 Hermann Park Dr, Houston, TX 77030, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Hugo's",
+          "rating": 4.7,
+          "cost": "$$$"
+        },
+        {
+          "name": "Pappadeaux Seafood Kitchen",
+          "rating": 4.6,
+          "cost": "$$"
+        }
+      ]
+    },
+    {
+      "city": "Phoenix",
+      "image": "https://source.unsplash.com/featured/?phoenix",
+      "best_places": [
+        {
+          "name": "Desert Botanical Garden",
+          "rating": 4.8,
+          "address": "1201 N Galvin Pkwy, Phoenix, AZ 85008, USA"
+        },
+        {
+          "name": "Camelback Mountain",
+          "rating": 4.2,
+          "address": "Phoenix, AZ 85018, USA"
+        },
+        {
+          "name": "Phoenix Zoo",
+          "rating": 4.5,
+          "address": "455 N Galvin Pkwy, Phoenix, AZ 85008, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Kai",
+          "rating": 4.9,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Pizzeria Bianco",
+          "rating": 4.7,
+          "cost": "$$$"
+        }
+      ]
+    },
+    {
+      "city": "Atlanta",
+      "image": "https://source.unsplash.com/featured/?atlanta",
+      "best_places": [
+        {
+          "name": "Georgia Aquarium",
+          "rating": 4.8,
+          "address": "225 Baker St NW, Atlanta, GA 30313, USA"
+        },
+        {
+          "name": "Centennial Olympic Park",
+          "rating": 4.2,
+          "address": "265 Park Ave W NW, Atlanta, GA 30313, USA"
+        },
+        {
+          "name": "Martin Luther King Jr. National Historical Park",
+          "rating": 4.5,
+          "address": "450 Auburn Ave NE, Atlanta, GA 30312, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Bacchanalia",
+          "rating": 4.7,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Canoe",
+          "rating": 4.6,
+          "cost": "$$$"
+        }
+      ]
+    },
+    {
+      "city": "Orlando",
+      "image": "https://source.unsplash.com/featured/?orlando",
+      "best_places": [
+        {
+          "name": "Walt Disney World",
+          "rating": 4.8,
+          "address": "Walt Disney World Resort, Orlando, FL 32830, USA"
+        },
+        {
+          "name": "Universal Studios",
+          "rating": 4.2,
+          "address": "6000 Universal Blvd, Orlando, FL 32819, USA"
+        },
+        {
+          "name": "Epcot",
+          "rating": 4.5,
+          "address": "200 Epcot Center Dr, Orlando, FL 32821, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Victoria & Albert's",
+          "rating": 4.9,
+          "cost": "$$$$"
+        },
+        {
+          "name": "The Ravenous Pig",
+          "rating": 4.6,
+          "cost": "$$$"
+        }
+      ]
+    },
+    {
+      "city": "San Diego",
+      "image": "https://source.unsplash.com/featured/?san-diego",
+      "best_places": [
+        {
+          "name": "Balboa Park",
+          "rating": 4.8,
+          "address": "1549 El Prado, San Diego, CA 92101, USA"
+        },
+        {
+          "name": "San Diego Zoo",
+          "rating": 4.2,
+          "address": "2920 Zoo Dr, San Diego, CA 92101, USA"
+        },
+        {
+          "name": "USS Midway Museum",
+          "rating": 4.5,
+          "address": "910 N Harbor Dr, San Diego, CA 92101, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Addison",
+          "rating": 4.8,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Nobu",
+          "rating": 4.7,
+          "cost": "$$$"
+        }
+      ]
+    },
+    {
+      "city": "Minneapolis",
+      "image": "https://source.unsplash.com/featured/?minneapolis",
+      "best_places": [
+        {
+          "name": "Minnehaha Falls",
+          "rating": 4.8,
+          "address": "4801 S Minnehaha Park Dr, Minneapolis, MN 55417, USA"
+        },
+        {
+          "name": "Mall of America",
+          "rating": 4.2,
+          "address": "60 E Broadway, Bloomington, MN 55425, USA"
+        },
+        {
+          "name": "Walker Art Center",
+          "rating": 4.5,
+          "address": "725 Vineland Pl, Minneapolis, MN 55403, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Spoon and Stable",
+          "rating": 4.7,
+          "cost": "$$$"
+        },
+        {
+          "name": "The Bachelor Farmer",
+          "rating": 4.6,
+          "cost": "$$$"
+        }
+      ]
+    },
+    {
+      "city": "San Antonio",
+      "image": "https://source.unsplash.com/featured/?san-antonio",
+      "best_places": [
+        {
+          "name": "The Alamo",
+          "rating": 4.8,
+          "address": "300 Alamo Plaza, San Antonio, TX 78205, USA"
+        },
+        {
+          "name": "San Antonio River Walk",
+          "rating": 4.2,
+          "address": "San Antonio, TX 78205, USA"
+        },
+        {
+          "name": "San Antonio Missions",
+          "rating": 4.5,
+          "address": "San Antonio, TX 78210, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Cured",
+          "rating": 4.7,
+          "cost": "$$$"
+        },
+        {
+          "name": "Mi Tierra Café y Panadería",
+          "rating": 4.6,
+          "cost": "$$"
+        }
+      ]
+    },
+    {
+      "city": "Salt Lake City",
+      "image": "https://source.unsplash.com/featured/?salt-lake-city",
+      "best_places": [
+        {
+          "name": "Temple Square",
+          "rating": 4.8,
+          "address": "50 N Temple, Salt Lake City, UT 84150, USA"
+        },
+        {
+          "name": "Utah State Capitol",
+          "rating": 4.2,
+          "address": "350 State St, Salt Lake City, UT 84111, USA"
+        },
+        {
+          "name": "Great Salt Lake",
+          "rating": 4.5,
+          "address": "Salt Lake City, UT, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "The Roof Restaurant",
+          "rating": 4.6,
+          "cost": "$$$"
+        },
+        {
+          "name": "Log Haven",
+          "rating": 4.5,
+          "cost": "$$"
+        },
+        {
+          "name": "The Ray Restaurant",
+          "rating": 4.6,
+          "cost": "$$$"
+        },
+        {
+          "name": "Low price res",
+          "rating": 4.5,
+          "cost": "$"
+        }
+      ]
+    },
+    {
+      "city": "Indianapolis",
+      "image": "https://source.unsplash.com/featured/?indianapolis",
+      "best_places": [
+        {
+          "name": "Indianapolis Motor Speedway",
+          "rating": 4.8,
+          "address": "4790 W 16th St, Indianapolis, IN 46222, USA"
+        },
+        {
+          "name": "Indianapolis Zoo",
+          "rating": 4.2,
+          "address": "1200 W Washington St, Indianapolis, IN 46222, USA"
+        },
+        {
+          "name": "White River State Park",
+          "rating": 4.5,
+          "address": "801 W Washington St, Indianapolis, IN 46204, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "St. Elmo Steak House",
+          "rating": 4.8,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Bluebeard",
+          "rating": 4.7,
+          "cost": "$$$"
+        }
+      ]
+    },
+    {
+      "city": "Columbus",
+      "image": "https://source.unsplash.com/featured/?columbus",
+      "best_places": [
+        {
+          "name": "Columbus Zoo and Aquarium",
+          "rating": 4.8,
+          "address": "4850 Powell Rd, Powell, OH 43065, USA"
+        },
+        {
+          "name": "COSI",
+          "rating": 4.2,
+          "address": "333 W Broad St, Columbus, OH 43215, USA"
+        },
+        {
+          "name": "Franklin Park Conservatory",
+          "rating": 4.5,
+          "address": "1777 E Broad St, Columbus, OH 43203, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "The Refectory",
+          "rating": 4.8,
+          "cost": "$$$"
+        },
+        {
+          "name": "The Pearl",
+          "rating": 4.7,
+          "cost": "$"
+        }
+      ]
+    },
+    {
+      "city": "Charlotte",
+      "image": "https://source.unsplash.com/featured/?charlotte",
+      "best_places": [
+        {
+          "name": "NASCAR Hall of Fame",
+          "rating": 4.8,
+          "address": "400 E Martin Luther King Jr Blvd, Charlotte, NC 28202, USA"
+        },
+        {
+          "name": "Carowinds",
+          "rating": 4.2,
+          "address": "14523 Carowinds Blvd, Charlotte, NC 28273, USA"
+        },
+        {
+          "name": "Discovery Place Science",
+          "rating": 4.5,
+          "address": "301 N Tryon St, Charlotte, NC 28202, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Kindred",
+          "rating": 4.7,
+          "cost": "$$$"
+        },
+        {
+          "name": "The Capital Grille",
+          "rating": 4.6,
+          "cost": "$$$$"
+        }
+      ]
+    },
+    {
+      "city": "San Jose",
+      "image": "https://source.unsplash.com/featured/?san-jose",
+      "best_places": [
+        {
+          "name": "Winchester Mystery House",
+          "rating": 4.8,
+          "address": "525 S Winchester Blvd, San Jose, CA 95128, USA"
+        },
+        {
+          "name": "The Tech Interactive",
+          "rating": 4.2,
+          "address": "201 S Market St, San Jose, CA 95113, USA"
+        },
+        {
+          "name": "Rosicrucian Egyptian Museum",
+          "rating": 4.5,
+          "address": "1660 Park Ave, San Jose, CA 95191, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Manresa",
+          "rating": 4.8,
+          "cost": "$$$$"
+        },
+        {
+          "name": "La Mediterranee",
+          "rating": 4.7,
+          "cost": "$$$"
+        }
+      ]
+    },
+
+    {
+      "city": "Washington D.C.",
+      "image": "https://source.unsplash.com/featured/?washington-dc",
+      "best_places": [
+        {
+          "name": "National Mall",
+          "rating": 4.8,
+          "address": "Washington, D.C., USA"
+        },
+        {
+          "name": "Smithsonian Institution",
+          "rating": 4.2,
+          "address": "Washington, D.C., USA"
+        },
+        {
+          "name": "Lincoln Memorial",
+          "rating": 4.5,
+          "address": "2 Lincoln Memorial Cir NW, Washington, D.C., 20037, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Minibar",
+          "rating": 4.8,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Rose's Luxury",
+          "rating": 4.7,
+          "cost": "$$$"
+        }
+      ]
+    },
+    {
+      "city": "Tampa",
+      "image": "https://source.unsplash.com/featured/?tampa",
+      "best_places": [
+        {
+          "name": "Busch Gardens",
+          "rating": 4.8,
+          "address": "10165 N McKinley Dr, Tampa, FL 33612, USA"
+        },
+        {
+          "name": "Tampa Riverwalk",
+          "rating": 4.2,
+          "address": "Tampa, FL 33602, USA"
+        },
+        {
+          "name": "Florida Aquarium",
+          "rating": 4.5,
+          "address": "701 Channelside Dr, Tampa, FL 33602, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Bern's Steak House",
+          "rating": 4.8,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Ulele",
+          "rating": 4.7,
+          "cost": "$$$"
+        }
+      ]
+    },
+    {
+      "city": "Honolulu",
+      "image": "https://source.unsplash.com/featured/?honolulu",
+      "best_places": [
+        {
+          "name": "Diamond Head",
+          "rating": 4.8,
+          "address": "Honolulu, HI 96815, USA"
+        },
+        {
+          "name": "Waikiki Beach",
+          "rating": 4.2,
+          "address": "Honolulu, HI 96815, USA"
+        },
+        {
+          "name": "Hanauma Bay",
+          "rating": 4.5,
+          "address": "Honolulu, HI 96825, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Alan Wong's Honolulu",
+          "rating": 4.9,
+          "cost": "$$$$"
+        },
+        {
+          "name": "The Pig and The Lady",
+          "rating": 4.8,
+          "cost": "$$$"
+        }
+      ]
+    }
+  ]
+}
