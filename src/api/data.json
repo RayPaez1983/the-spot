@@ -2,7 +2,7 @@
   "cities": [
     {
       "city": "New York",
-      "image": "../../assets/new_york.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Central Park",
@@ -49,7 +49,7 @@
     },
     {
       "city": "Tokyo",
-      "image": "../../assets/tokyo.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Shibuya Crossing",
@@ -96,7 +96,7 @@
     },
     {
       "city": "Paris",
-      "image": "../../assets/paris.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Eiffel Tower",
@@ -143,7 +143,7 @@
     },
     {
       "city": "London",
-      "image": "../../assets/london.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "British Museum",
@@ -190,7 +190,7 @@
     },
     {
       "city": "Sydney",
-      "image": "../../assets/sydney.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Sydney Opera House",
@@ -237,7 +237,7 @@
     },
     {
       "city": "Berlin",
-      "image": "../../assets/berlin.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Brandenburg Gate",
@@ -284,7 +284,7 @@
     },
     {
       "city": "Rio de Janeiro",
-      "image": "../../assets/rio_de_janeiro.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Christ the Redeemer",
@@ -331,7 +331,7 @@
     },
     {
       "city": "Barcelona",
-      "image": "../../assets/barcelona.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Sagrada Família",
@@ -378,7 +378,7 @@
     },
     {
       "city": "Dubai",
-      "image": "../../assets/dubai.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Burj Khalifa",
@@ -425,7 +425,7 @@
     },
     {
       "city": "Istanbul",
-      "image": "../../assets/istanbul.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Hagia Sophia",
@@ -472,7 +472,7 @@
     },
     {
       "city": "Singapore",
-      "image": "../../assets/singapore.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Marina Bay Sands",
@@ -519,7 +519,7 @@
     },
     {
       "city": "Los Angeles",
-      "image": "../../assets/los_angeles.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Hollywood Sign",
@@ -566,7 +566,7 @@
     },
     {
       "city": "Moscow",
-      "image": "../../assets/moscow.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Red Square",
@@ -613,7 +613,7 @@
     },
     {
       "city": "Cairo",
-      "image": "../../assets/cairo.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Pyramids of Giza",
@@ -660,7 +660,7 @@
     },
     {
       "city": "Bangkok",
-      "image": "../../assets/bangkok.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Grand Palace",
@@ -707,7 +707,7 @@
     },
     {
       "city": "Hong Kong",
-      "image": "../../assets/hong_kong.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Victoria Peak",
@@ -754,7 +754,7 @@
     },
     {
       "city": "Mumbai",
-      "image": "../../assets/mumbai.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Gateway of India",
@@ -801,7 +801,7 @@
     },
     {
       "city": "Toronto",
-      "image": "../../assets/toronto.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "CN Tower",
@@ -848,7 +848,7 @@
     },
     {
       "city": "Buenos Aires",
-      "image": "../../assets/buenos_aires.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Casa Rosada",
@@ -895,7 +895,7 @@
     },
     {
       "city": "Lima",
-      "image": "../../assets/lima.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Plaza Mayor",
@@ -943,7 +943,7 @@
 
     {
       "city": "Rome",
-      "image": "../../assets/rome.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Colosseum",
@@ -990,7 +990,7 @@
     },
     {
       "city": "Seoul",
-      "image": "../../assets/seoul.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Gyeongbokgung Palace",
@@ -1037,7 +1037,7 @@
     },
     {
       "city": "Copenhagen",
-      "image": "../../assets/copenhagen.jpg",
+      "image": "../../assets/valencia.jpg",
       "best_places": [
         {
           "name": "Tivoli Gardens",
