@@ -1,14 +1,14 @@
-import React from 'react';
-import { View, Text, StyleSheet, FlatList } from 'react-native';
+import React from "react";
+import { Text, FlatList } from "react-native";
 
 const ListScreen = () => {
   const friends = [
-    { name: 'Friend1' },
-    { name: 'Friend2' },
-    { name: 'Friend3' },
-    { name: 'Friend4' },
-    { name: 'Friend5' },
-    { name: 'Friend6' },
+    { name: "Friend1" },
+    { name: "Friend2" },
+    { name: "Friend3" },
+    { name: "Friend4" },
+    { name: "Friend5" },
+    { name: "Friend6" },
   ];
   return (
     <FlatList
@@ -20,5 +20,5 @@ const ListScreen = () => {
     />
   );
 };
-const styles = StyleSheet.create({});
+
 export default ListScreen;

@@ -1,13 +1,14 @@
-import React from 'react';
+/* eslint-disable no-undef */
+/* eslint-disable react/prop-types */
+import React from "react";
 import {
   Text,
   View,
   StyleSheet,
   FlatList,
-  Image,
   TouchableOpacity,
   ImageBackground,
-} from 'react-native';
+} from "react-native";
 
 const CitiesCard = ({ citiesData, handlePress }) => {
   return (
@@ -20,9 +21,10 @@ const CitiesCard = ({ citiesData, handlePress }) => {
           <View>
             <TouchableOpacity
               onPress={() => handlePress(item)}
-              style={styles.cardStyle}>
+              style={styles.cardStyle}
+            >
               <ImageBackground
-                source={require('../../assets/valencia.jpg')}
+                source={require("../../assets/valencia.jpg")}
                 style={styles.imageBackground}
                 imageStyle={styles.image} // For styling the image itself
               >
@@ -40,29 +42,29 @@ const CitiesCard = ({ citiesData, handlePress }) => {
 const styles = StyleSheet.create({
   cityText: {
     fontSize: 24,
-    fontWeight: 'bold',
-    color: 'white',
+    fontWeight: "bold",
+    color: "white",
   },
   restaurantContainer: {
     paddingLeft: 20,
   },
   restaurantName: {
     fontSize: 16,
-    fontWeight: '600',
+    fontWeight: "600",
   },
   imageBackground: {
-    width: '100%',
+    width: "100%",
     height: 200,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
   },
   cardStyle: {
     borderRadius: 8,
-    borderColor: '#000',
+    borderColor: "#000",
     borderWidth: 2,
     margin: 10,
-    justifyContent: 'space-between',
-    alignItems: 'center',
+    justifyContent: "space-between",
+    alignItems: "center",
   },
 });
 export default CitiesCard;

@@ -1,5 +1,6 @@
-import React from 'react';
-import { Text, View, StyleSheet, FlatList } from 'react-native';
+/* eslint-disable react/prop-types */
+import React from "react";
+import { Text, View, StyleSheet, FlatList } from "react-native";
 
 const CitiesItem = ({ item }) => {
   console.log(item);
@@ -45,14 +46,14 @@ const CitiesItem = ({ item }) => {
   );
 };
 const styles = StyleSheet.create({
-  citiesItemContent: { color: '#fff' },
+  citiesItemContent: { color: "#fff" },
   citiesItemContainer: {
     paddingLeft: 20,
   },
   citiesItemTitle: {
     fontSize: 16,
-    fontWeight: '600',
-    color: '#fff',
+    fontWeight: "600",
+    color: "#fff",
   },
 });
 

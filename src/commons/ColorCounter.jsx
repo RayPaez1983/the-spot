@@ -1,5 +1,6 @@
-import React from 'react';
-import { Text, View, Button, StyleSheet } from 'react-native';
+import React from "react";
+import { Text, View, Button, StyleSheet } from "react-native";
+// eslint-disable-next-line react/prop-types
 const ColorCounter = ({ color, onClickDecrease, onClickIncrease }) => {
   return (
     <View style={styles.cardStyle}>
@@ -16,7 +17,7 @@ const styles = StyleSheet.create({
   },
   cardStyle: {
     borderRadius: 8,
-    borderColor: '#000', // Color of the border
+    borderColor: "#000", // Color of the border
     borderWidth: 2, // Width of the border
     margin: 10,
   },

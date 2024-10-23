@@ -2,7 +2,7 @@
   "cities": [
     {
       "city": "New York",
-      "image": "../../assets/valencia.jpg",
+      "image": "../../assets/new_york.jpg",
       "best_places": [
         {
           "name": "Central Park",
@@ -32,951 +32,1055 @@
           "cost": "$$"
         },
         {
-          "name": "Sesame Street Restaurant",
-          "rating": 4.8,
-          "cost": "$$$"
+          "name": "Momofuku Noodle Bar",
+          "rating": 4.5,
+          "cost": "$"
         },
         {
-          "name": "Grace an Charity Restauranta",
+          "name": "Shake Shack",
+          "rating": 4.7,
+          "cost": "$"
+        }
+      ],
+      "music_place": {
+        "name": "DJ Tiësto",
+        "residence": "Las Vegas, NV"
+      }
+    },
+    {
+      "city": "Tokyo",
+      "image": "../../assets/tokyo.jpg",
+      "best_places": [
+        {
+          "name": "Shibuya Crossing",
+          "rating": 4.7,
+          "address": "Shibuya City, Tokyo, Japan"
+        },
+        {
+          "name": "Tokyo Tower",
+          "rating": 4.5,
+          "address": "4 Chome-2-8 Shibaura, Minato City, Tokyo, Japan"
+        },
+        {
+          "name": "Senso-ji Temple",
+          "rating": 4.6,
+          "address": "2 Chome-3-1 Asakusa, Taito City, Tokyo, Japan"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Sukiyabashi Jiro",
+          "rating": 4.8,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Ramen Nagi",
+          "rating": 4.5,
+          "cost": "$"
+        },
+        {
+          "name": "Ginza Kojyu",
+          "rating": 4.7,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Ichiran Shibuya",
           "rating": 4.6,
           "cost": "$"
         }
-      ]
+      ],
+      "music_place": {
+        "name": "DJ Koo",
+        "residence": "Tokyo, Japan"
+      }
     },
     {
-      "city": "Los Angeles",
-      "image": "https://source.unsplash.com/featured/?los-angeles",
+      "city": "Paris",
+      "image": "../../assets/paris.jpg",
       "best_places": [
         {
-          "name": "Hollywood Sign",
+          "name": "Eiffel Tower",
+          "rating": 4.9,
+          "address": "Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France"
+        },
+        {
+          "name": "Louvre Museum",
           "rating": 4.8,
-          "address": "Los Angeles, CA 90068, USA"
+          "address": "Rue de Rivoli, 75001 Paris, France"
         },
         {
-          "name": "Venice Beach",
-          "rating": 4.2,
-          "address": "1800 Ocean Front Walk, Venice, CA 90291, USA"
-        },
-        {
-          "name": "Griffith Observatory",
-          "rating": 4.5,
-          "address": "2800 E Observatory Rd, Los Angeles, CA 90027, USA"
+          "name": "Notre-Dame Cathedral",
+          "rating": 4.7,
+          "address": "6 Parvis Notre-Dame - Pl. Jean-Paul II, 75004 Paris, France"
         }
       ],
       "restaurants": [
         {
-          "name": "Providence",
+          "name": "Le Meurice",
           "rating": 4.7,
           "cost": "$$$$"
         },
         {
-          "name": "Guelaguetza",
-          "rating": 4.5,
+          "name": "L'Astrance",
+          "rating": 4.8,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Chez Janou",
+          "rating": 4.6,
           "cost": "$$"
+        },
+        {
+          "name": "L'As du Fallafel",
+          "rating": 4.5,
+          "cost": "$"
         }
-      ]
+      ],
+      "music_place": {
+        "name": "DJ Snake",
+        "residence": "Paris, France"
+      }
     },
     {
-      "city": "Chicago",
-      "image": "https://source.unsplash.com/featured/?chicago",
+      "city": "London",
+      "image": "../../assets/london.jpg",
       "best_places": [
         {
-          "name": "Millennium Park",
+          "name": "British Museum",
           "rating": 4.8,
-          "address": "201 E Randolph St, Chicago, IL 60602, USA"
+          "address": "Great Russell St, Bloomsbury, London WC1B 3DG, UK"
         },
         {
-          "name": "Navy Pier",
-          "rating": 4.2,
-          "address": "600 E Grand Ave, Chicago, IL 60611, USA"
+          "name": "Tower of London",
+          "rating": 4.7,
+          "address": "St Katharine's & Wapping, London EC3N 4AB, UK"
         },
         {
-          "name": "Willis Tower",
-          "rating": 4.5,
-          "address": "233 S Wacker Dr, Chicago, IL 60606, USA"
+          "name": "Buckingham Palace",
+          "rating": 4.6,
+          "address": "Buckingham Palace, London SW1A 1AA, UK"
         }
       ],
       "restaurants": [
         {
-          "name": "Alinea",
+          "name": "The Ledbury",
           "rating": 4.9,
           "cost": "$$$$"
         },
         {
-          "name": "Girl & the Goat",
+          "name": "Dishoom",
           "rating": 4.7,
-          "cost": "$$$"
-        }
-      ]
-    },
-    {
-      "city": "San Francisco",
-      "image": "https://source.unsplash.com/featured/?san-francisco",
-      "best_places": [
-        {
-          "name": "Golden Gate Bridge",
-          "rating": 4.8,
-          "address": "Golden Gate Bridge, San Francisco, CA, USA"
+          "cost": "$"
         },
         {
-          "name": "Alcatraz Island",
-          "rating": 4.2,
-          "address": "San Francisco, CA 94133, USA"
-        },
-        {
-          "name": "Fisherman's Wharf",
-          "rating": 4.5,
-          "address": "Fisherman's Wharf, San Francisco, CA 94133, USA"
-        }
-      ],
-      "restaurants": [
-        {
-          "name": "Quince",
-          "rating": 4.8,
-          "cost": "$$$$"
-        },
-        {
-          "name": "Zuni Café",
+          "name": "Flat Iron",
           "rating": 4.6,
-          "cost": "$$$"
-        }
-      ]
-    },
-    {
-      "city": "Miami",
-      "image": "https://source.unsplash.com/featured/?miami",
-      "best_places": [
-        {
-          "name": "Miami Beach",
-          "rating": 4.8,
-          "address": "Miami Beach, FL 33139, USA"
+          "cost": "$"
         },
         {
-          "name": "Wynwood Walls",
-          "rating": 4.2,
-          "address": "2520 NW 2nd Ave, Miami, FL 33127, USA"
-        },
-        {
-          "name": "Vizcaya Museum",
+          "name": "Burger & Lobster",
           "rating": 4.5,
-          "address": "3251 S Miami Ave, Miami, FL 33129, USA"
-        }
-      ],
-      "restaurants": [
-        {
-          "name": "Joe's Stone Crab",
-          "rating": 4.5,
-          "cost": "$$$"
-        },
-        {
-          "name": "Mandolin Aegean Bistro",
-          "rating": 4.4,
           "cost": "$$"
         }
-      ]
+      ],
+      "music_place": {
+        "name": "Calvin Harris",
+        "residence": "Las Vegas, NV"
+      }
     },
     {
-      "city": "Seattle",
-      "image": "https://source.unsplash.com/featured/?seattle",
+      "city": "Sydney",
+      "image": "../../assets/sydney.jpg",
       "best_places": [
         {
-          "name": "Space Needle",
-          "rating": 4.8,
-          "address": "400 Broad St, Seattle, WA 98109, USA"
-        },
-        {
-          "name": "Pike Place Market",
-          "rating": 4.2,
-          "address": "85 Pike St, Seattle, WA 98101, USA"
-        },
-        {
-          "name": "Chihuly Garden",
-          "rating": 4.5,
-          "address": "305 Harrison St, Seattle, WA 98109, USA"
-        }
-      ],
-      "restaurants": [
-        {
-          "name": "Canlis",
-          "rating": 4.7,
-          "cost": "$$$$"
-        },
-        {
-          "name": "The Walrus and the Carpenter",
-          "rating": 4.5,
-          "cost": "$$$"
-        }
-      ]
-    },
-    {
-      "city": "Boston",
-      "image": "https://source.unsplash.com/featured/?boston",
-      "best_places": [
-        {
-          "name": "Fenway Park",
-          "rating": 4.8,
-          "address": "4 Jersey St, Boston, MA 02215, USA"
-        },
-        {
-          "name": "Boston Common",
-          "rating": 4.2,
-          "address": "139 Tremont St, Boston, MA 02111, USA"
-        },
-        {
-          "name": "Faneuil Hall",
-          "rating": 4.5,
-          "address": "4 S Market St, Boston, MA 02109, USA"
-        }
-      ],
-      "restaurants": [
-        {
-          "name": "Ostra",
-          "rating": 4.6,
-          "cost": "$$$$"
-        },
-        {
-          "name": "Neptune Oyster",
-          "rating": 4.5,
-          "cost": "$$$"
-        }
-      ]
-    },
-    {
-      "city": "Las Vegas",
-      "image": "https://source.unsplash.com/featured/?las-vegas",
-      "best_places": [
-        {
-          "name": "The Strip",
-          "rating": 4.8,
-          "address": "Las Vegas Blvd S, Las Vegas, NV 89109, USA"
-        },
-        {
-          "name": "Bellagio Fountains",
-          "rating": 4.2,
-          "address": "3600 S Las Vegas Blvd, Las Vegas, NV 89109, USA"
-        },
-        {
-          "name": "Red Rock Canyon",
-          "rating": 4.5,
-          "address": "1000 Scenic Loop Dr, Las Vegas, NV 89161, USA"
-        }
-      ],
-      "restaurants": [
-        {
-          "name": "Joel Robuchon",
-          "rating": 4.8,
-          "cost": "$$$$"
-        },
-        {
-          "name": "é by José Andrés",
-          "rating": 4.7,
-          "cost": "$$$"
-        }
-      ]
-    },
-    {
-      "city": "Austin",
-      "image": "https://source.unsplash.com/featured/?austin",
-      "best_places": [
-        {
-          "name": "Barton Springs Pool",
-          "rating": 4.8,
-          "address": "2201 Barton Springs Rd, Austin, TX 78746, USA"
-        },
-        {
-          "name": "Zilker Park",
-          "rating": 4.2,
-          "address": "2100 Barton Springs Rd, Austin, TX 78704, USA"
-        },
-        {
-          "name": "Texas Capitol",
-          "rating": 4.5,
-          "address": "1100 Congress Ave, Austin, TX 78701, USA"
-        }
-      ],
-      "restaurants": [
-        {
-          "name": "Franklin Barbecue",
+          "name": "Sydney Opera House",
           "rating": 4.9,
-          "cost": "$$"
+          "address": "Bennelong Point, Sydney NSW 2000, Australia"
         },
         {
-          "name": "Uchi",
+          "name": "Sydney Harbour Bridge",
+          "rating": 4.8,
+          "address": "Sydney Harbour, Sydney NSW, Australia"
+        },
+        {
+          "name": "Bondi Beach",
           "rating": 4.7,
-          "cost": "$$$"
-        }
-      ]
-    },
-    {
-      "city": "Portland",
-      "image": "https://source.unsplash.com/featured/?portland",
-      "best_places": [
-        {
-          "name": "Portland Japanese Garden",
-          "rating": 4.8,
-          "address": "611 SW Kingston Ave, Portland, OR 97205, USA"
-        },
-        {
-          "name": "Pioneer Courthouse Square",
-          "rating": 4.2,
-          "address": "701 SW 6th Ave, Portland, OR 97204, USA"
-        },
-        {
-          "name": "International Rose Test Garden",
-          "rating": 4.5,
-          "address": "400 SW Kingston Ave, Portland, OR 97205, USA"
+          "address": "Bondi Beach, NSW, Australia"
         }
       ],
       "restaurants": [
         {
-          "name": "Le Pigeon",
-          "rating": 4.6,
-          "cost": "$$$"
-        },
-        {
-          "name": "Pok Pok",
-          "rating": 4.5,
-          "cost": "$$"
-        }
-      ]
-    },
-    {
-      "city": "Philadelphia",
-      "image": "https://source.unsplash.com/featured/?philadelphia",
-      "best_places": [
-        {
-          "name": "Liberty Bell",
-          "rating": 4.8,
-          "address": "526 Market St, Philadelphia, PA 19106, USA"
-        },
-        {
-          "name": "Philadelphia Museum of Art",
-          "rating": 4.2,
-          "address": "2600 Benjamin Franklin Pkwy, Philadelphia, PA 19130, USA"
-        },
-        {
-          "name": "Independence Hall",
-          "rating": 4.5,
-          "address": "520 Chestnut St, Philadelphia, PA 19106, USA"
-        }
-      ],
-      "restaurants": [
-        {
-          "name": "Vetri Cucina",
+          "name": "Quay",
           "rating": 4.8,
           "cost": "$$$$"
         },
         {
-          "name": "Zahav",
+          "name": "Tetsuya's",
           "rating": 4.7,
-          "cost": "$$$"
-        }
-      ]
-    },
-    {
-      "city": "Dallas",
-      "image": "https://source.unsplash.com/featured/?dallas",
-      "best_places": [
-        {
-          "name": "The Sixth Floor Museum",
-          "rating": 4.8,
-          "address": "411 Elm St, Dallas, TX 75202, USA"
-        },
-        {
-          "name": "Dallas Arboretum",
-          "rating": 4.2,
-          "address": "8525 Garland Rd, Dallas, TX 75218, USA"
-        },
-        {
-          "name": "Reunion Tower",
-          "rating": 4.5,
-          "address": "300 Reunion Blvd E, Dallas, TX 75207, USA"
-        }
-      ],
-      "restaurants": [
-        {
-          "name": "Pecan Lodge",
-          "rating": 4.6,
-          "cost": "$$"
-        },
-        {
-          "name": "Tei-An",
-          "rating": 4.5,
-          "cost": "$$$"
-        }
-      ]
-    },
-    {
-      "city": "Denver",
-      "image": "https://source.unsplash.com/featured/?denver",
-      "best_places": [
-        {
-          "name": "Red Rocks Amphitheatre",
-          "rating": 4.8,
-          "address": "18300 W Alameda Pkwy, Morrison, CO 80465, USA"
-        },
-        {
-          "name": "Denver Art Museum",
-          "rating": 4.2,
-          "address": "100 W 14th Ave Pkwy, Denver, CO 80204, USA"
-        },
-        {
-          "name": "Denver Botanic Gardens",
-          "rating": 4.5,
-          "address": "1007 York St, Denver, CO 80206, USA"
-        }
-      ],
-      "restaurants": [
-        {
-          "name": "Fruition Restaurant",
-          "rating": 4.7,
-          "cost": "$$$"
-        },
-        {
-          "name": "Sushi Den",
-          "rating": 4.5,
-          "cost": "$$"
-        }
-      ]
-    },
-    {
-      "city": "Nashville",
-      "image": "https://source.unsplash.com/featured/?nashville",
-      "best_places": [
-        {
-          "name": "Grand Ole Opry",
-          "rating": 4.8,
-          "address": "2804 Opryland Dr, Nashville, TN 37214, USA"
-        },
-        {
-          "name": "Ryman Auditorium",
-          "rating": 4.2,
-          "address": "116 5th Ave N, Nashville, TN 37219, USA"
-        },
-        {
-          "name": "Country Music Hall of Fame",
-          "rating": 4.5,
-          "address": "222 5th Ave S, Nashville, TN 37203, USA"
-        }
-      ],
-      "restaurants": [
-        {
-          "name": "The Catbird Seat",
-          "rating": 4.8,
           "cost": "$$$$"
         },
         {
-          "name": "Hattie B's Hot Chicken",
+          "name": "Rockpool Bar & Grill",
           "rating": 4.6,
-          "cost": "$$"
-        }
-      ]
-    },
-    {
-      "city": "Houston",
-      "image": "https://source.unsplash.com/featured/?houston",
-      "best_places": [
-        {
-          "name": "Space Center Houston",
-          "rating": 4.8,
-          "address": "1601 NASA Rd 1, Houston, TX 77058, USA"
-        },
-        {
-          "name": "Museum of Fine Arts",
-          "rating": 4.2,
-          "address": "1001 Bissonnet St, Houston, TX 77005, USA"
-        },
-        {
-          "name": "Houston Zoo",
-          "rating": 4.5,
-          "address": "6200 Hermann Park Dr, Houston, TX 77030, USA"
-        }
-      ],
-      "restaurants": [
-        {
-          "name": "Hugo's",
-          "rating": 4.7,
           "cost": "$$$"
         },
         {
-          "name": "Pappadeaux Seafood Kitchen",
-          "rating": 4.6,
+          "name": "Chin Chin",
+          "rating": 4.5,
           "cost": "$$"
         }
-      ]
+      ],
+      "music_place": {
+        "name": "DJ Mark Ronson",
+        "residence": "London, UK"
+      }
     },
     {
-      "city": "Phoenix",
-      "image": "https://source.unsplash.com/featured/?phoenix",
+      "city": "Berlin",
+      "image": "../../assets/berlin.jpg",
       "best_places": [
         {
-          "name": "Desert Botanical Garden",
+          "name": "Brandenburg Gate",
+          "rating": 4.7,
+          "address": "Pariser Pl. 1, 10117 Berlin, Germany"
+        },
+        {
+          "name": "Berlin Wall Memorial",
+          "rating": 4.6,
+          "address": "Bernauer Str. 119, 13355 Berlin, Germany"
+        },
+        {
+          "name": "Museum Island",
           "rating": 4.8,
-          "address": "1201 N Galvin Pkwy, Phoenix, AZ 85008, USA"
-        },
-        {
-          "name": "Camelback Mountain",
-          "rating": 4.2,
-          "address": "Phoenix, AZ 85018, USA"
-        },
-        {
-          "name": "Phoenix Zoo",
-          "rating": 4.5,
-          "address": "455 N Galvin Pkwy, Phoenix, AZ 85008, USA"
+          "address": "Bodestraße 1-3, 10178 Berlin, Germany"
         }
       ],
       "restaurants": [
         {
-          "name": "Kai",
+          "name": "Restaurant Tim Raue",
           "rating": 4.9,
           "cost": "$$$$"
         },
         {
-          "name": "Pizzeria Bianco",
+          "name": "Mustafa's Gemüse Kebap",
           "rating": 4.7,
-          "cost": "$$$"
-        }
-      ]
-    },
-    {
-      "city": "Atlanta",
-      "image": "https://source.unsplash.com/featured/?atlanta",
-      "best_places": [
+          "cost": "$"
+        },
         {
-          "name": "Georgia Aquarium",
+          "name": "Nobelhart & Schmutzig",
           "rating": 4.8,
-          "address": "225 Baker St NW, Atlanta, GA 30313, USA"
-        },
-        {
-          "name": "Centennial Olympic Park",
-          "rating": 4.2,
-          "address": "265 Park Ave W NW, Atlanta, GA 30313, USA"
-        },
-        {
-          "name": "Martin Luther King Jr. National Historical Park",
-          "rating": 4.5,
-          "address": "450 Auburn Ave NE, Atlanta, GA 30312, USA"
-        }
-      ],
-      "restaurants": [
-        {
-          "name": "Bacchanalia",
-          "rating": 4.7,
           "cost": "$$$$"
         },
         {
-          "name": "Canoe",
+          "name": "Zur letzten Instanz",
           "rating": 4.6,
           "cost": "$$$"
         }
-      ]
+      ],
+      "music_place": {
+        "name": "Paul van Dyk",
+        "residence": "Berlin, Germany"
+      }
     },
     {
-      "city": "Orlando",
-      "image": "https://source.unsplash.com/featured/?orlando",
+      "city": "Rio de Janeiro",
+      "image": "../../assets/rio_de_janeiro.jpg",
       "best_places": [
         {
-          "name": "Walt Disney World",
+          "name": "Christ the Redeemer",
+          "rating": 4.9,
+          "address": "Parque Nacional da Tijuca - Alto da Boa Vista - Rio de Janeiro, Brazil"
+        },
+        {
+          "name": "Sugarloaf Mountain",
           "rating": 4.8,
-          "address": "Walt Disney World Resort, Orlando, FL 32830, USA"
+          "address": "Avenida Pasteur, 520 - Urca, Rio de Janeiro, Brazil"
         },
         {
-          "name": "Universal Studios",
-          "rating": 4.2,
-          "address": "6000 Universal Blvd, Orlando, FL 32819, USA"
-        },
-        {
-          "name": "Epcot",
-          "rating": 4.5,
-          "address": "200 Epcot Center Dr, Orlando, FL 32821, USA"
+          "name": "Copacabana Beach",
+          "rating": 4.7,
+          "address": "Rio de Janeiro - State of Rio de Janeiro, Brazil"
         }
       ],
       "restaurants": [
         {
-          "name": "Victoria & Albert's",
+          "name": "Oro",
           "rating": 4.9,
           "cost": "$$$$"
         },
         {
-          "name": "The Ravenous Pig",
-          "rating": 4.6,
+          "name": "Marius Degustare",
+          "rating": 4.8,
           "cost": "$$$"
+        },
+        {
+          "name": "Oro",
+          "rating": 4.7,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Cipriani",
+          "rating": 4.6,
+          "cost": "$$$$"
         }
-      ]
+      ],
+      "music_place": {
+        "name": "DJ Marky",
+        "residence": "Rio de Janeiro, Brazil"
+      }
     },
     {
-      "city": "San Diego",
-      "image": "https://source.unsplash.com/featured/?san-diego",
+      "city": "Barcelona",
+      "image": "../../assets/barcelona.jpg",
       "best_places": [
         {
-          "name": "Balboa Park",
+          "name": "Sagrada Família",
           "rating": 4.8,
-          "address": "1549 El Prado, San Diego, CA 92101, USA"
+          "address": "Carrer de Mallorca, 401, 08013 Barcelona, Spain"
         },
         {
-          "name": "San Diego Zoo",
-          "rating": 4.2,
-          "address": "2920 Zoo Dr, San Diego, CA 92101, USA"
+          "name": "Park Güell",
+          "rating": 4.7,
+          "address": "Carrer d'Olot, 5, 08024 Barcelona, Spain"
         },
         {
-          "name": "USS Midway Museum",
-          "rating": 4.5,
-          "address": "910 N Harbor Dr, San Diego, CA 92101, USA"
+          "name": "La Rambla",
+          "rating": 4.6,
+          "address": "La Rambla, 08002 Barcelona, Spain"
         }
       ],
       "restaurants": [
         {
-          "name": "Addison",
+          "name": "Tickets",
+          "rating": 4.8,
+          "cost": "$$$$"
+        },
+        {
+          "name": "El Celler de Can Roca",
+          "rating": 4.9,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Cervecería Catalana",
+          "rating": 4.6,
+          "cost": "$"
+        },
+        {
+          "name": "Cal Pep",
+          "rating": 4.7,
+          "cost": "$"
+        }
+      ],
+      "music_place": {
+        "name": "DJ David Guetta",
+        "residence": "Paris, France"
+      }
+    },
+    {
+      "city": "Dubai",
+      "image": "../../assets/dubai.jpg",
+      "best_places": [
+        {
+          "name": "Burj Khalifa",
+          "rating": 4.9,
+          "address": "1 Sheikh Mohammed bin Rashid Blvd - Downtown Dubai - Dubai, UAE"
+        },
+        {
+          "name": "The Dubai Mall",
+          "rating": 4.8,
+          "address": "Downtown Dubai, Dubai, UAE"
+        },
+        {
+          "name": "Palm Jumeirah",
+          "rating": 4.7,
+          "address": "Palm Jumeirah, Dubai, UAE"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "At.mosphere",
           "rating": 4.8,
           "cost": "$$$$"
         },
         {
           "name": "Nobu",
           "rating": 4.7,
-          "cost": "$$$"
-        }
-      ]
-    },
-    {
-      "city": "Minneapolis",
-      "image": "https://source.unsplash.com/featured/?minneapolis",
-      "best_places": [
-        {
-          "name": "Minnehaha Falls",
-          "rating": 4.8,
-          "address": "4801 S Minnehaha Park Dr, Minneapolis, MN 55417, USA"
+          "cost": "$$$$"
         },
         {
-          "name": "Mall of America",
-          "rating": 4.2,
-          "address": "60 E Broadway, Bloomington, MN 55425, USA"
-        },
-        {
-          "name": "Walker Art Center",
-          "rating": 4.5,
-          "address": "725 Vineland Pl, Minneapolis, MN 55403, USA"
-        }
-      ],
-      "restaurants": [
-        {
-          "name": "Spoon and Stable",
-          "rating": 4.7,
-          "cost": "$$$"
-        },
-        {
-          "name": "The Bachelor Farmer",
-          "rating": 4.6,
-          "cost": "$$$"
-        }
-      ]
-    },
-    {
-      "city": "San Antonio",
-      "image": "https://source.unsplash.com/featured/?san-antonio",
-      "best_places": [
-        {
-          "name": "The Alamo",
-          "rating": 4.8,
-          "address": "300 Alamo Plaza, San Antonio, TX 78205, USA"
-        },
-        {
-          "name": "San Antonio River Walk",
-          "rating": 4.2,
-          "address": "San Antonio, TX 78205, USA"
-        },
-        {
-          "name": "San Antonio Missions",
-          "rating": 4.5,
-          "address": "San Antonio, TX 78210, USA"
-        }
-      ],
-      "restaurants": [
-        {
-          "name": "Cured",
-          "rating": 4.7,
-          "cost": "$$$"
-        },
-        {
-          "name": "Mi Tierra Café y Panadería",
-          "rating": 4.6,
-          "cost": "$$"
-        }
-      ]
-    },
-    {
-      "city": "Salt Lake City",
-      "image": "https://source.unsplash.com/featured/?salt-lake-city",
-      "best_places": [
-        {
-          "name": "Temple Square",
-          "rating": 4.8,
-          "address": "50 N Temple, Salt Lake City, UT 84150, USA"
-        },
-        {
-          "name": "Utah State Capitol",
-          "rating": 4.2,
-          "address": "350 State St, Salt Lake City, UT 84111, USA"
-        },
-        {
-          "name": "Great Salt Lake",
-          "rating": 4.5,
-          "address": "Salt Lake City, UT, USA"
-        }
-      ],
-      "restaurants": [
-        {
-          "name": "The Roof Restaurant",
+          "name": "Zuma",
           "rating": 4.6,
           "cost": "$$$"
         },
         {
-          "name": "Log Haven",
-          "rating": 4.5,
-          "cost": "$$"
-        },
-        {
-          "name": "The Ray Restaurant",
-          "rating": 4.6,
-          "cost": "$$$"
-        },
-        {
-          "name": "Low price res",
+          "name": "Al Fanar Restaurant",
           "rating": 4.5,
           "cost": "$"
         }
-      ]
+      ],
+      "music_place": {
+        "name": "DJ Bliss",
+        "residence": "Dubai, UAE"
+      }
     },
     {
-      "city": "Indianapolis",
-      "image": "https://source.unsplash.com/featured/?indianapolis",
+      "city": "Istanbul",
+      "image": "../../assets/istanbul.jpg",
       "best_places": [
         {
-          "name": "Indianapolis Motor Speedway",
+          "name": "Hagia Sophia",
+          "rating": 4.9,
+          "address": "Ayasofya Meydanı, Sultanahmet, 34122 Fatih/İstanbul, Turkey"
+        },
+        {
+          "name": "Topkapi Palace",
           "rating": 4.8,
-          "address": "4790 W 16th St, Indianapolis, IN 46222, USA"
+          "address": "Cankurtaran, 34122 Fatih/İstanbul, Turkey"
         },
         {
-          "name": "Indianapolis Zoo",
-          "rating": 4.2,
-          "address": "1200 W Washington St, Indianapolis, IN 46222, USA"
-        },
-        {
-          "name": "White River State Park",
-          "rating": 4.5,
-          "address": "801 W Washington St, Indianapolis, IN 46204, USA"
+          "name": "Grand Bazaar",
+          "rating": 4.7,
+          "address": "Beyazıt, 34126 Fatih/İstanbul, Turkey"
         }
       ],
       "restaurants": [
         {
-          "name": "St. Elmo Steak House",
-          "rating": 4.8,
-          "cost": "$$$$"
-        },
-        {
-          "name": "Bluebeard",
-          "rating": 4.7,
-          "cost": "$$$"
-        }
-      ]
-    },
-    {
-      "city": "Columbus",
-      "image": "https://source.unsplash.com/featured/?columbus",
-      "best_places": [
-        {
-          "name": "Columbus Zoo and Aquarium",
-          "rating": 4.8,
-          "address": "4850 Powell Rd, Powell, OH 43065, USA"
-        },
-        {
-          "name": "COSI",
-          "rating": 4.2,
-          "address": "333 W Broad St, Columbus, OH 43215, USA"
-        },
-        {
-          "name": "Franklin Park Conservatory",
-          "rating": 4.5,
-          "address": "1777 E Broad St, Columbus, OH 43203, USA"
-        }
-      ],
-      "restaurants": [
-        {
-          "name": "The Refectory",
+          "name": "Mikla",
           "rating": 4.8,
           "cost": "$$$"
         },
         {
-          "name": "The Pearl",
+          "name": "Neyzi Restaurant",
           "rating": 4.7,
-          "cost": "$"
-        }
-      ]
-    },
-    {
-      "city": "Charlotte",
-      "image": "https://source.unsplash.com/featured/?charlotte",
-      "best_places": [
-        {
-          "name": "NASCAR Hall of Fame",
-          "rating": 4.8,
-          "address": "400 E Martin Luther King Jr Blvd, Charlotte, NC 28202, USA"
+          "cost": "$$"
         },
         {
-          "name": "Carowinds",
-          "rating": 4.2,
-          "address": "14523 Carowinds Blvd, Charlotte, NC 28273, USA"
-        },
-        {
-          "name": "Discovery Place Science",
-          "rating": 4.5,
-          "address": "301 N Tryon St, Charlotte, NC 28202, USA"
-        }
-      ],
-      "restaurants": [
-        {
-          "name": "Kindred",
-          "rating": 4.7,
-          "cost": "$$$"
-        },
-        {
-          "name": "The Capital Grille",
+          "name": "Zubeyir Ocakbasi",
           "rating": 4.6,
-          "cost": "$$$$"
-        }
-      ]
-    },
-    {
-      "city": "San Jose",
-      "image": "https://source.unsplash.com/featured/?san-jose",
-      "best_places": [
-        {
-          "name": "Winchester Mystery House",
-          "rating": 4.8,
-          "address": "525 S Winchester Blvd, San Jose, CA 95128, USA"
+          "cost": "$"
         },
         {
-          "name": "The Tech Interactive",
-          "rating": 4.2,
-          "address": "201 S Market St, San Jose, CA 95113, USA"
-        },
-        {
-          "name": "Rosicrucian Egyptian Museum",
-          "rating": 4.5,
-          "address": "1660 Park Ave, San Jose, CA 95191, USA"
+          "name": "Çiya Sofrası",
+          "rating": 4.9,
+          "cost": "$$"
         }
       ],
-      "restaurants": [
+      "music_place": {
+        "name": "DJ Nookie",
+        "residence": "Istanbul, Turkey"
+      }
+    },
+    {
+      "city": "Singapore",
+      "image": "../../assets/singapore.jpg",
+      "best_places": [
         {
-          "name": "Manresa",
+          "name": "Marina Bay Sands",
           "rating": 4.8,
-          "cost": "$$$$"
+          "address": "10 Bayfront Ave, Singapore 018956"
         },
         {
-          "name": "La Mediterranee",
+          "name": "Gardens by the Bay",
+          "rating": 4.9,
+          "address": "18 Marina Gardens Dr, Singapore 018953"
+        },
+        {
+          "name": "Sentosa Island",
           "rating": 4.7,
-          "cost": "$$$"
-        }
-      ]
-    },
-
-    {
-      "city": "Washington D.C.",
-      "image": "https://source.unsplash.com/featured/?washington-dc",
-      "best_places": [
-        {
-          "name": "National Mall",
-          "rating": 4.8,
-          "address": "Washington, D.C., USA"
-        },
-        {
-          "name": "Smithsonian Institution",
-          "rating": 4.2,
-          "address": "Washington, D.C., USA"
-        },
-        {
-          "name": "Lincoln Memorial",
-          "rating": 4.5,
-          "address": "2 Lincoln Memorial Cir NW, Washington, D.C., 20037, USA"
+          "address": "Sentosa, Singapore"
         }
       ],
       "restaurants": [
         {
-          "name": "Minibar",
-          "rating": 4.8,
-          "cost": "$$$$"
-        },
-        {
-          "name": "Rose's Luxury",
-          "rating": 4.7,
-          "cost": "$$$"
-        }
-      ]
-    },
-    {
-      "city": "Tampa",
-      "image": "https://source.unsplash.com/featured/?tampa",
-      "best_places": [
-        {
-          "name": "Busch Gardens",
-          "rating": 4.8,
-          "address": "10165 N McKinley Dr, Tampa, FL 33612, USA"
-        },
-        {
-          "name": "Tampa Riverwalk",
-          "rating": 4.2,
-          "address": "Tampa, FL 33602, USA"
-        },
-        {
-          "name": "Florida Aquarium",
-          "rating": 4.5,
-          "address": "701 Channelside Dr, Tampa, FL 33602, USA"
-        }
-      ],
-      "restaurants": [
-        {
-          "name": "Bern's Steak House",
-          "rating": 4.8,
-          "cost": "$$$$"
-        },
-        {
-          "name": "Ulele",
-          "rating": 4.7,
-          "cost": "$$$"
-        }
-      ]
-    },
-    {
-      "city": "Honolulu",
-      "image": "https://source.unsplash.com/featured/?honolulu",
-      "best_places": [
-        {
-          "name": "Diamond Head",
-          "rating": 4.8,
-          "address": "Honolulu, HI 96815, USA"
-        },
-        {
-          "name": "Waikiki Beach",
-          "rating": 4.2,
-          "address": "Honolulu, HI 96815, USA"
-        },
-        {
-          "name": "Hanauma Bay",
-          "rating": 4.5,
-          "address": "Honolulu, HI 96825, USA"
-        }
-      ],
-      "restaurants": [
-        {
-          "name": "Alan Wong's Honolulu",
+          "name": "Restaurant André",
           "rating": 4.9,
           "cost": "$$$$"
         },
         {
-          "name": "The Pig and The Lady",
+          "name": "Burnt Ends",
           "rating": 4.8,
           "cost": "$$$"
+        },
+        {
+          "name": "Chatterbox",
+          "rating": 4.7,
+          "cost": "$$$"
+        },
+        {
+          "name": "Hakkasan",
+          "rating": 4.6,
+          "cost": "$$$$"
         }
-      ]
+      ],
+      "music_place": {
+        "name": "DJ Rob, DJ Bobo",
+        "residence": "Singapore"
+      }
+    },
+    {
+      "city": "Los Angeles",
+      "image": "../../assets/los_angeles.jpg",
+      "best_places": [
+        {
+          "name": "Hollywood Sign",
+          "rating": 4.7,
+          "address": "Los Angeles, CA 90068, USA"
+        },
+        {
+          "name": "Universal Studios Hollywood",
+          "rating": 4.6,
+          "address": "100 Universal City Plaza, Universal City, CA 91608, USA"
+        },
+        {
+          "name": "Griffith Observatory",
+          "rating": 4.8,
+          "address": "2800 E Observatory Rd, Los Angeles, CA 90027, USA"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "n/naka",
+          "rating": 4.9,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Bestia",
+          "rating": 4.8,
+          "cost": "$$$"
+        },
+        {
+          "name": "République",
+          "rating": 4.6,
+          "cost": "$$"
+        },
+        {
+          "name": "Guelaguetza",
+          "rating": 4.5,
+          "cost": "$"
+        }
+      ],
+      "music_place": {
+        "name": "DJ Khaled",
+        "residence": "Miami, FL"
+      }
+    },
+    {
+      "city": "Moscow",
+      "image": "../../assets/moscow.jpg",
+      "best_places": [
+        {
+          "name": "Red Square",
+          "rating": 4.8,
+          "address": "Moscow, Russia"
+        },
+        {
+          "name": "The Kremlin",
+          "rating": 4.9,
+          "address": "Moscow, Russia"
+        },
+        {
+          "name": "St. Basil's Cathedral",
+          "rating": 4.7,
+          "address": "Red Square, Moscow, Russia"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "White Rabbit",
+          "rating": 4.8,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Café Pushkin",
+          "rating": 4.7,
+          "cost": "$$$"
+        },
+        {
+          "name": "Varenichnaya No. 1",
+          "rating": 4.5,
+          "cost": "$"
+        },
+        {
+          "name": "Buvette",
+          "rating": 4.6,
+          "cost": "$$$"
+        }
+      ],
+      "music_place": {
+        "name": "DJ Smash",
+        "residence": "Moscow, Russia"
+      }
+    },
+    {
+      "city": "Cairo",
+      "image": "../../assets/cairo.jpg",
+      "best_places": [
+        {
+          "name": "Pyramids of Giza",
+          "rating": 4.9,
+          "address": "Al Giza Desert, Giza Governorate, Egypt"
+        },
+        {
+          "name": "The Egyptian Museum",
+          "rating": 4.8,
+          "address": "Tahrir Square, Cairo, Egypt"
+        },
+        {
+          "name": "Khan El Khalili",
+          "rating": 4.7,
+          "address": "Cairo, Egypt"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Abou El Sid",
+          "rating": 4.8,
+          "cost": "$$"
+        },
+        {
+          "name": "Zitouni",
+          "rating": 4.7,
+          "cost": "$$$"
+        },
+        {
+          "name": "Fasahet Somaya",
+          "rating": 4.6,
+          "cost": "$"
+        },
+        {
+          "name": "Sequoia",
+          "rating": 4.5,
+          "cost": "$$$"
+        }
+      ],
+      "music_place": {
+        "name": "DJ Kimo",
+        "residence": "Cairo, Egypt"
+      }
+    },
+    {
+      "city": "Bangkok",
+      "image": "../../assets/bangkok.jpg",
+      "best_places": [
+        {
+          "name": "Grand Palace",
+          "rating": 4.9,
+          "address": "Na Phra Lan Rd, Phra Nakhon, Bangkok, Thailand"
+        },
+        {
+          "name": "Wat Arun",
+          "rating": 4.8,
+          "address": "174 Wat Arun, Bangkok Yai, Bangkok, Thailand"
+        },
+        {
+          "name": "Chatuchak Weekend Market",
+          "rating": 4.7,
+          "address": "Chatuchak, Bangkok, Thailand"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Gaa",
+          "rating": 4.9,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Nahm",
+          "rating": 4.8,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Sorn",
+          "rating": 4.7,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Thip Samai",
+          "rating": 4.6,
+          "cost": "$"
+        }
+      ],
+      "music_place": {
+        "name": "DJ DUSTY",
+        "residence": "Bangkok, Thailand"
+      }
+    },
+    {
+      "city": "Hong Kong",
+      "image": "../../assets/hong_kong.jpg",
+      "best_places": [
+        {
+          "name": "Victoria Peak",
+          "rating": 4.8,
+          "address": "The Peak, Hong Kong"
+        },
+        {
+          "name": "Tsim Sha Tsui Promenade",
+          "rating": 4.7,
+          "address": "Tsim Sha Tsui, Hong Kong"
+        },
+        {
+          "name": "Hong Kong Disneyland",
+          "rating": 4.9,
+          "address": "Hong Kong Disneyland Resort, Penny's Bay, Lantau Island, Hong Kong"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Tsim Chai Kee",
+          "rating": 4.8,
+          "cost": "$"
+        },
+        {
+          "name": "Amber",
+          "rating": 4.9,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Duddell's",
+          "rating": 4.6,
+          "cost": "$$$"
+        },
+        {
+          "name": "The Chairman",
+          "rating": 4.7,
+          "cost": "$$$"
+        }
+      ],
+      "music_place": {
+        "name": "DJ Koo",
+        "residence": "Hong Kong"
+      }
+    },
+    {
+      "city": "Mumbai",
+      "image": "../../assets/mumbai.jpg",
+      "best_places": [
+        {
+          "name": "Gateway of India",
+          "rating": 4.8,
+          "address": "Apollo Bandar, Colaba, Mumbai, Maharashtra 400001, India"
+        },
+        {
+          "name": "Marine Drive",
+          "rating": 4.7,
+          "address": "Chowpatty, Mumbai, Maharashtra 400007, India"
+        },
+        {
+          "name": "Chhatrapati Shivaji Terminus",
+          "rating": 4.6,
+          "address": "CST Area, Fort, Mumbai, Maharashtra 400001, India"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "The Table",
+          "rating": 4.9,
+          "cost": "$$$"
+        },
+        {
+          "name": "Wasabi by Morimoto",
+          "rating": 4.8,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Trishna",
+          "rating": 4.7,
+          "cost": "$$"
+        },
+        {
+          "name": "Bademiya",
+          "rating": 4.6,
+          "cost": "$"
+        }
+      ],
+      "music_place": {
+        "name": "DJ Aqeel",
+        "residence": "Mumbai, India"
+      }
+    },
+    {
+      "city": "Toronto",
+      "image": "../../assets/toronto.jpg",
+      "best_places": [
+        {
+          "name": "CN Tower",
+          "rating": 4.8,
+          "address": "301 Front St W, Toronto, ON M5V 2T6, Canada"
+        },
+        {
+          "name": "Royal Ontario Museum",
+          "rating": 4.7,
+          "address": "100 Queens Park, Toronto, ON M5S 2C6, Canada"
+        },
+        {
+          "name": "Distillery District",
+          "rating": 4.6,
+          "address": "9 Trinity St, Toronto, ON M5A 3C4, Canada"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Alo Restaurant",
+          "rating": 4.9,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Buca",
+          "rating": 4.8,
+          "cost": "$$$"
+        },
+        {
+          "name": "Canoe",
+          "rating": 4.6,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Richmond Station",
+          "rating": 4.7,
+          "cost": "$$$"
+        }
+      ],
+      "music_place": {
+        "name": "DJ Shub",
+        "residence": "Toronto, Canada"
+      }
+    },
+    {
+      "city": "Buenos Aires",
+      "image": "../../assets/buenos_aires.jpg",
+      "best_places": [
+        {
+          "name": "Casa Rosada",
+          "rating": 4.8,
+          "address": "Calle Balcarce 50, CABA, Argentina"
+        },
+        {
+          "name": "La Boca",
+          "rating": 4.7,
+          "address": "La Boca, Buenos Aires, Argentina"
+        },
+        {
+          "name": "Recoleta Cemetery",
+          "rating": 4.6,
+          "address": "Cementerio de la Recoleta, Buenos Aires, Argentina"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Don Julio",
+          "rating": 4.9,
+          "cost": "$$$"
+        },
+        {
+          "name": "El preferido de Palermo",
+          "rating": 4.8,
+          "cost": "$$$"
+        },
+        {
+          "name": "Tegui",
+          "rating": 4.7,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Cabaña Las Lilas",
+          "rating": 4.6,
+          "cost": "$$$$"
+        }
+      ],
+      "music_place": {
+        "name": "DJ Mendez",
+        "residence": "Buenos Aires, Argentina"
+      }
+    },
+    {
+      "city": "Lima",
+      "image": "../../assets/lima.jpg",
+      "best_places": [
+        {
+          "name": "Plaza Mayor",
+          "rating": 4.8,
+          "address": "Jirón de la Unión 1, Lima, Peru"
+        },
+        {
+          "name": "Larcomar",
+          "rating": 4.7,
+          "address": "Malecón de la Reserva 610, Lima, Peru"
+        },
+        {
+          "name": "Huaca Pucllana",
+          "rating": 4.6,
+          "address": "Av. Vía Expresa, Lima, Peru"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Central",
+          "rating": 4.9,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Maido",
+          "rating": 4.8,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Panchita",
+          "rating": 4.6,
+          "cost": "$"
+        },
+        {
+          "name": "La Mar",
+          "rating": 4.7,
+          "cost": "$"
+        }
+      ],
+      "music_place": {
+        "name": "DJ Snoop",
+        "residence": "Lima, Peru"
+      }
+    },
+
+    {
+      "city": "Rome",
+      "image": "../../assets/rome.jpg",
+      "best_places": [
+        {
+          "name": "Colosseum",
+          "rating": 4.8,
+          "address": "Piazza del Colosseo, 1, 00184 Roma RM, Italy"
+        },
+        {
+          "name": "Vatican City",
+          "rating": 4.9,
+          "address": "Vatican City"
+        },
+        {
+          "name": "Trevi Fountain",
+          "rating": 4.7,
+          "address": "Piazza di Trevi, 00187 Roma RM, Italy"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "La Pergola",
+          "rating": 4.9,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Roscioli",
+          "rating": 4.8,
+          "cost": "$$$"
+        },
+        {
+          "name": "Trattoria Da Enzo",
+          "rating": 4.6,
+          "cost": "$"
+        },
+        {
+          "name": "Piperno",
+          "rating": 4.7,
+          "cost": "$$$"
+        }
+      ],
+      "music_place": {
+        "name": "DJ Tiësto",
+        "residence": "Amsterdam, Netherlands"
+      }
+    },
+    {
+      "city": "Seoul",
+      "image": "../../assets/seoul.jpg",
+      "best_places": [
+        {
+          "name": "Gyeongbokgung Palace",
+          "rating": 4.9,
+          "address": "161 Sajik-ro, Jongno-gu, Seoul, South Korea"
+        },
+        {
+          "name": "Bukchon Hanok Village",
+          "rating": 4.8,
+          "address": "37 Gyedong-gil, Jongno-gu, Seoul, South Korea"
+        },
+        {
+          "name": "N Seoul Tower",
+          "rating": 4.7,
+          "address": "Namsan Park, Yongsan-gu, Seoul, South Korea"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Mingles",
+          "rating": 4.9,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Jungsik",
+          "rating": 4.8,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Tosokchon Samgyetang",
+          "rating": 4.7,
+          "cost": "$"
+        },
+        {
+          "name": "Baekjeong",
+          "rating": 4.6,
+          "cost": "$"
+        }
+      ],
+      "music_place": {
+        "name": "DJ Soda",
+        "residence": "Seoul, South Korea"
+      }
+    },
+    {
+      "city": "Copenhagen",
+      "image": "../../assets/copenhagen.jpg",
+      "best_places": [
+        {
+          "name": "Tivoli Gardens",
+          "rating": 4.9,
+          "address": "Vesterbrogade 3, 1630 København, Denmark"
+        },
+        {
+          "name": "Nyhavn",
+          "rating": 4.8,
+          "address": "Nyhavn, 1051 København, Denmark"
+        },
+        {
+          "name": "The Little Mermaid",
+          "rating": 4.7,
+          "address": "Langelinie, 2100 København, Denmark"
+        }
+      ],
+      "restaurants": [
+        {
+          "name": "Noma",
+          "rating": 4.9,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Geranium",
+          "rating": 4.8,
+          "cost": "$$$$"
+        },
+        {
+          "name": "Restaurant Krebsegaarden",
+          "rating": 4.6,
+          "cost": "$$$"
+        },
+        {
+          "name": "Høst",
+          "rating": 4.7,
+          "cost": "$$$"
+        }
+      ],
+      "music_place": {
+        "name": "DJ Morten Breum",
+        "residence": "Copenhagen, Denmark"
+      }
     }
   ]
 }

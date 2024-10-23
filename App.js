@@ -1,30 +1,18 @@
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
-import HomeScreen from "./src/screens/HomeScreen";
-import ComponentsScreen from './src/screens/ComponentsScreen';
-import DetailsScreen from './src/screens/DetailsScreen';
-import ImagesScreen from './src/screens/ImagesScreen';
-import ColorScreen from './src/screens/ColorScreen';
-import SquareScreen from './src/screens/SquareScreen';
-import TextScreen from './src/screens/TextScreen';
-import SearchScreen from './src/screens/SearchScreen';
+import DetailsScreen from "./src/screens/DetailsScreen";
+import SearchScreen from "./src/screens/SearchScreen";
 
 const navigator = createStackNavigator(
   {
-    Home: HomeScreen,
-    Components: ComponentsScreen,
     Details: DetailsScreen,
-    Image: ImagesScreen,
-    ColorDemo: ColorScreen,
-    SquareComponent: SquareScreen,
-    Text: TextScreen,
     Search: SearchScreen,
   },
   {
-    initialRouteName: 'Search',
+    initialRouteName: "Search",
 
     defaultNavigationOptions: {
-      title: 'City App',
+      title: "The Spot!",
     },
   }
 );

@@ -1,6 +1,7 @@
-import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import React from "react";
+import { View, Text, StyleSheet } from "react-native";
 
+// eslint-disable-next-line react/prop-types
 const RestaurantRating = ({ title, results }) => {
   console.log(results);
   return (
@@ -14,7 +15,7 @@ const RestaurantRating = ({ title, results }) => {
 const styles = StyleSheet.create({
   title: {
     fontSize: 18,
-    fontWeight: 'bold',
+    fontWeight: "bold",
   },
 });
 

@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import { Text, View, TextInput, StyleSheet, Button } from 'react-native';
+import React, { useState } from "react";
+import { Text, View, TextInput, StyleSheet, Button } from "react-native";
 
 const TextScreen = () => {
-  const [text, setText] = useState('');
-  const [password, setPassword] = useState('');
+  const [text, setText] = useState("");
+  const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(true);
   console.log(showPassword);
   return (
@@ -28,7 +28,7 @@ const TextScreen = () => {
         onChangeText={(newValue) => setPassword(newValue)}
       />
       <Button
-        title={showPassword ? 'show password' : 'hide password'}
+        title={showPassword ? "show password" : "hide password"}
         onPress={() => setShowPassword(!showPassword)}
       />
       {password.length < 5 ? (
@@ -40,7 +40,7 @@ const TextScreen = () => {
 
 const styles = StyleSheet.create({
   input: {
-    borderColor: 'black',
+    borderColor: "black",
     borderWidth: 1,
   },
 });
