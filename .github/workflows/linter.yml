@@ -5,10 +5,10 @@ on:
   # but only for the main branch
   push:
     branches:
-      - Dev
+      - main
   pull_request:
     branches:
-      - Dev
+      - main
 
 jobs:
   run-linters:
@@ -32,5 +32,3 @@ jobs:
         run: npm run prettier:check
       - name: Run linters
         run: npm run lint
-        #- name: Run Test
-        #run: npm run test
