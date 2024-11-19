@@ -3,13 +3,14 @@
 import React from "react";
 import { ImageBackground, Text, StyleSheet } from "react-native";
 import CitiesItem from "../commons/CitiesItem";
+import { withNavigation } from 'react-navigation';
 
 const DetailsScreen = ({ navigation }) => {
-  const city = navigation.getParam("city", {});
+  const city = navigation.getParam('city');
   console.log(city);
   return (
     <ImageBackground
-      source={require("../../assets/valencia.jpg")}
+      source={require('../../assets/valencia.jpg')}
       style={styles.imageBackground}
       imageStyle={styles.image} // For styling the image itself
     >
@@ -26,22 +27,22 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   imageBackground: {
-    width: "100%",
-    height: "100vh",
+    width: '100%',
+    height: '100%',
   },
   title: {
     fontSize: 24,
-    fontWeight: "bold",
+    fontWeight: 'bold',
     marginVertical: 10,
-    color: "#fff",
+    color: '#fff',
   },
   restaurantContainer: {
     marginBottom: 10,
   },
   restaurantName: {
     fontSize: 18,
-    fontWeight: "600",
+    fontWeight: '600',
   },
 });
 
-export default DetailsScreen;
+export default withNavigation(DetailsScreen);

@@ -3,13 +3,13 @@ import React from "react";
 import { Text, View, StyleSheet, FlatList } from "react-native";
 
 const CitiesItem = ({ item }) => {
-  console.log(item);
   return (
     <View>
       <Text style={styles.citiesItemTitle}>Places to Visit</Text>
       <FlatList
         data={item.best_places}
         keyExtractor={(place) => place.name}
+        showsHorizontalScrollIndicator={false}
         renderItem={({ item: place }) => {
           return (
             <View style={styles.citiesItemContainer}>

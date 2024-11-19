@@ -8,7 +8,7 @@ import {
   FlatList,
   TouchableOpacity,
   ImageBackground,
-} from "react-native";
+} from 'react-native';
 
 const CitiesList = ({ citiesData, handlePress, customTitleText }) => {
   return (
@@ -33,15 +33,18 @@ const CitiesList = ({ citiesData, handlePress, customTitleText }) => {
           const bestPlacesFilter = item.best_places.find(
             (rate) => rate.rating === maxRating
           );
+          const bestPlaceAddress = bestPlacesFilter.address.slice(0, 20);
+          const bestPlaceRaiting = bestPlacesFilter.rating;
+          const bestPlaceName = bestPlacesFilter.name;
+
           console.log(bestPlacesFilter.name);
           return (
             <View>
               <TouchableOpacity
                 onPress={() => handlePress(item)}
-                style={styles.cardStyle}
-              >
+                style={styles.cardStyle}>
                 <ImageBackground
-                  source={require("../../assets/valencia.jpg")}
+                  source={require('../../assets/valencia.jpg')}
                   style={styles.imageBackground}
                   imageStyle={styles.image} // For styling the image itself
                 >
@@ -49,10 +52,10 @@ const CitiesList = ({ citiesData, handlePress, customTitleText }) => {
                     <Text style={styles.cityText}>{item.city}</Text>
                   </View>
                 </ImageBackground>
+                <Text>{bestPlaceName}</Text>
+                <Text>{bestPlaceRaiting}</Text>
+                <Text>{bestPlaceAddress}</Text>
               </TouchableOpacity>
-              <Text>{bestPlacesFilter.name}</Text>
-              <Text>{bestPlacesFilter.ratingR}</Text>
-              <Text>{bestPlacesFilter.address}</Text>
             </View>
           );
         }}
