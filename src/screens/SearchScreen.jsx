@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import SearchBar from "../commons/SearchBar";
 import CitiesList from "../commons/CitiesList";
 import useResults from "../hooks/useResults";
-import { ScrollView } from 'react-native';
+import { ScrollView } from "react-native";
 // eslint-disable-next-line react/prop-types
 const SearchScreen = ({ navigation }) => {
-  const [term, setTerm] = useState('');
+  const [term, setTerm] = useState("");
   const onPressSelectCity = (city) => {
     // eslint-disable-next-line react/prop-types
-    navigation.navigate('Details', { city });
+    navigation.navigate("Details", { city });
   };
   const [searchApi, filteredData] = useResults();
 

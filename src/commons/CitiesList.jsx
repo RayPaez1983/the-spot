@@ -8,7 +8,7 @@ import {
   FlatList,
   TouchableOpacity,
   ImageBackground,
-} from 'react-native';
+} from "react-native";
 
 const CitiesList = ({ citiesData, handlePress, customTitleText }) => {
   return (
@@ -42,9 +42,10 @@ const CitiesList = ({ citiesData, handlePress, customTitleText }) => {
             <View>
               <TouchableOpacity
                 onPress={() => handlePress(item)}
-                style={styles.cardStyle}>
+                style={styles.cardStyle}
+              >
                 <ImageBackground
-                  source={require('../../assets/valencia.jpg')}
+                  source={require("../../assets/valencia.jpg")}
                   style={styles.imageBackground}
                   imageStyle={styles.image} // For styling the image itself
                 >
